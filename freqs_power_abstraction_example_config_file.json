@@ -1,0 +1,15 @@
+{
+  "sample_rate": 1024,
+  "mats_folder_path": "C:/final_project/test_input",
+  "interval_length_ms": 200,
+  "number_of_categories": 4,
+  "frequency_bands" : {
+    "Alpha": [8, 12],
+    "Beta": [13, 30],
+    "Gamma": [30,80]
+  },
+  "output_folder": "C:/final_project/test_output",
+  "direct_to_step": "False" ,
+  "levels_to_save": [0,3]
+
+}
