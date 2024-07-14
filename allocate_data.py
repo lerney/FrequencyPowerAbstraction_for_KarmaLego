@@ -1,4 +1,4 @@
-def allocate_data(entity_data, sample_rate, interval_length):
+ def allocate_data(entity_data, sample_rate, interval_length):
     for entity_info in entity_data:
         num_samples = entity_info['data'].shape[1]
         num_channels = entity_info['data'].shape[0]
